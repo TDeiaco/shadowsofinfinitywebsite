@@ -1,0 +1,76 @@
+body {
+    font-family: 'Times New Roman', sans-serif;
+    background-color: #1a1a1a;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+header {
+    background: #000000;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #0065a8 3px solid;
+}
+header a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+.main {
+    padding: 15px;
+}
+h1, h2, h3 {
+    margin-bottom:1rem;
+    text-align: center;
+    
+}
+.image-placeholder {
+    background-color: #444;
+    width: 100%;
+    height: 300px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+p {
+    font-size: 1.5rem;
+  }
+
+.discord-button {
+    display: inline-block;
+    background-color: #5865F2; /* Discord's brand color */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.discord-button:hover {
+    background-color: #4e5cd8; /* Slightly darker shade on hover */
+}
+
+.center-iters {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+  }
+
+.center-nebula {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
