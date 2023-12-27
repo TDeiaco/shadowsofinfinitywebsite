@@ -1,5 +1,20 @@
+@font-face {
+    font-family: 'BebasNeue';
+    src: url('fonts/BebasNeue-Regular.ttf');
+  }
+
+@font-face {
+    font-family: 'Play';
+    src: url('fonts/Play-Regular.ttf');
+  }
+
+@font-face {
+    font-family: 'WixMadeForText';
+    src: url('fonts/WixMadeForText.ttf');
+  }
+
 body {
-    font-family: 'Times New Roman', sans-serif;
+    font-family: 'WixMadeForText';
     background-color: #1a1a1a;
     color: #fff;
     margin: 0;
@@ -45,6 +60,13 @@ h1, h2, h3 {
 p {
     font-size: 1.5rem;
   }
+
+.title {
+    font-family: 'BebasNeue';
+    float:left; 
+    font-size:8rem; 
+    color:rgb(228, 228, 228)
+}
 
 .discord-button {
     display: inline-block;
